@@ -1,0 +1,263 @@
+.event-flyers {
+    padding-top: 67px;
+}
+
+.heading-a1 {
+    font-family: Interstate-Bold;
+    font-size: 56px;
+    color: #777676;
+    letter-spacing: -0.58px;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+.heading-a2{
+    margin-top: -30px;
+    font-family: Interstate-Regular;
+    font-size: 27px;
+    color: #777676;
+    letter-spacing: -0.28px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.heading-holder {
+    padding-top: 80px;
+    padding-bottom: 113px;
+}
+
+.img-holder {
+    width: 100%;
+    text-align: center!important;
+}
+
+.card-item {
+    min-height: 590px;
+    text-align: center!important;
+
+}
+
+.btn-holder {
+    padding-top: 37px;
+}
+
+.btn {
+    min-width: 160px;
+    padding-top: 13px;
+    background: #FF5D02;
+    border-radius: 4px; 
+    font-family: Interstate-Light;
+    font-size: 17px;
+    color: #FFFFFF;
+    letter-spacing: 2.68px;
+    text-align: center;
+    border: none;
+    min-height: 50px;
+    transition: background 0.5s ease;
+}
+
+.btn:hover {
+    background: #000;
+}
+
+.promoter {
+    
+    position: absolute;
+    top: 3px;
+    left: 68px;
+    background-color: black;
+    min-width: 450px;
+    min-height: 450px;
+    opacity: 0.0;
+    border-radius: 50%;
+    transition: all 0.8s ease;
+}
+.card-item img {
+   
+}
+.card-item:hover .promoter {
+    display: block;
+    opacity: 0.8;
+}
+
+.promoter P {
+    padding-top: 190px;
+    font-family: Interstate-Regular;
+    font-size: 15px;
+    color: #FFF;
+    letter-spacing: -0.28px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.quick-view {
+    min-height: 529px;
+    background-color: #EEEEEE;
+}
+
+.right-color {
+    width: 100%;
+    max-width: 113px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    height: 100%;
+    min-height: 530px;
+    background-color: #00B0B9;
+}
+
+.offer-status {
+    font-family: Interstate_Bold;
+    position: absolute;
+    top: 102px;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari 3-8 */
+    transform: rotate(90deg);
+    
+    color: #FFFFFF;
+    letter-spacing: 0;
+    word-wrap: normal;
+}
+
+
+.content-a1 {
+    padding-top: 40px;
+}
+
+.content-a1 img {
+    margin-right: 13px;
+}
+.content-a1 span {
+    font-family: Interstate_Light;
+    font-size: 14px;
+    color: #056DAE;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.content-a1 .heading-a1 {
+    margin-top: 20px;
+    font-family: Interstate_Light;
+    font-size: 26px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 32px; 
+}
+
+.list-a1 h2{
+    font-family: Interstate_Bold!important;
+    font-size: 16px!important;
+    color: #151515!important;
+    letter-spacing: 0!important;
+    line-height: 24px!important;
+}
+
+.content-a1 ul{
+    margin-top: 40px;
+}
+
+.compare {
+    display: none;
+    
+} 
+.compare p {
+    color: #056DAE;
+    font-family: Interstate_Bold!important;
+    font-size: 12px;
+}
+
+.item:hover, .item:hover .compare {
+    display: block;
+}
+
+.item-active .compare {
+    display: block;
+}
+
+.heading-c1 {
+    font-family: Interstate_Bold;
+    font-size: 12px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+.p-normal {
+    font-family: Interstate_Light;
+    font-size: 13px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+.link-c2 {
+    font-family: Interstate_Light;
+    font-size: 12px!important;
+    color: #056DAE;
+    letter-spacing: 0;
+    text-decoration: underline;
+    line-height: 24px; 
+    margin-left: 30px;
+}
+
+.content-a3 {
+    margin-top: 90px;
+}
+.content-a3 .compare-card-radio{
+    text-align: center;
+}
+
+.compare-card-radio {
+    text-align: center;
+    max-width: 237px;
+    padding-top: 16px;
+    font-family: Interstate_Bold;
+    background-color: #fff;
+    height: 50px;
+    border-radius: 8px;
+    color: #056DAE;
+    margin-left: 97px;
+}
+
+.full-details-link {
+    margin-right: 21px;
+    margin-top: 32px;
+    font-family: Interstate_Light;
+    font-size: 16px;
+    color: #056DAE;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+    text-decoration: underline;
+}
+
+.ad-box img {
+    margin-top: -25px;
+}
+.spacer {
+    margin-bottom: 89px;
+}
+
+
+
+
+
+
+

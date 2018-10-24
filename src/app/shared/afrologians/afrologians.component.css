@@ -1,0 +1,27 @@
+.afrologians{
+    padding-top: 130px;
+    min-height: 682px;
+    background-image: url('../../../assets/images/afrologians-bg.png');
+    background-size: cover;
+    padding-bottom: 30px;
+    background-attachment: fixed;
+}
+
+.afrologians h1 {
+    margin-bottom: 80px;
+    font-family: Poppins-Medium;
+    font-size: 59px;
+    color: #FFFFFF;
+    letter-spacing: 0.3px;
+    text-align: justify;
+    line-height: 36px;
+}
+
+.afrologians p {
+    font-family: Poppins-Light;
+    font-size: 19px;
+    color:  #FFFFFF;
+    letter-spacing: 0.3px;
+    text-align: justify;
+    line-height: 36px;
+}

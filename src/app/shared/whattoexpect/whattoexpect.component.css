@@ -1,0 +1,42 @@
+.expect {
+    min-height: 853px;
+    background-image: url('../../../assets/images/expect-bg.png');
+    background-size: cover;
+}
+
+.expect h2 {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-family: Poppins-Medium;
+    font-size: 59px;
+    color: #FFFFFF;
+    letter-spacing: 1.5px;
+    text-align: center;
+    line-height: 31px;
+}
+
+.dash {
+    height: 1px;
+    width: 60px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom:20px;
+}
+
+.item {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    text-align: center;
+    margin: 9px;
+    min-height: 218px;
+    border: 1px solid #FFFFFF;
+    width: 100%;
+    font-family: Poppins-Medium;
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 1.5px;
+    text-align: center;
+    line-height: 20px;
+}

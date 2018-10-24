@@ -1,0 +1,22 @@
+<div class="hidden-xs">
+  <section (scroll)="onWindowScroll($event)" id='sticky-offer'[className]="fixed ? 'sticky sticky-offer-wrapper slide' : 'sticky-offer-wrapper slideout'" class="sticky-offer-wrapper">
+    
+      <app-header></app-header>
+    
+    <div class="container">
+        
+      <div class="row hidden">
+        <div class="col-md-2">
+          <img class="card-v2" src="../../../../assets/images/member-card.png" alt="">
+        </div>
+        <div class="col-md-8">
+          <h3>SocialEliteClub<sup>©</sup></h3>
+          <p>Join our social Elite Club today and get altimate deal and discouts when you celebrate. </p>
+        </div>
+        <div class="col-md-2">
+          <button type="button" class="btn btn-primary adjust-position">Explore Card Benefits</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

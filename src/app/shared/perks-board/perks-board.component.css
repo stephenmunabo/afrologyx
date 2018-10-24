@@ -1,0 +1,121 @@
+.perks {
+    background: #1A1A1A;
+    min-height: 1900px;
+    
+}
+.perks-wrapper {
+    max-width: 1227px!important;
+    padding-top: 61px;
+    padding-left: 30px;
+    height: 100%;
+    min-height: 685px;
+    background-image: url('../../../assets/images/IC-Brunch-1a.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+ 
+}
+.perks-wrapper h1 {
+    font-family: Poppins-SemiBold;
+    font-size: 51px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 42px;
+}
+.perks-wrapper p {
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+.perks-wrapper .disclaimer{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-family: Poppins-Regular;
+    font-size: 9px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 12px;
+}
+.perks h2 {
+    font-family: Poppins-SemiBold;
+    font-size: 22px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 42px;
+}
+
+.perks-wrapper .heading-a1 {
+    font-family: Poppins-Medium;
+    font-size: 26px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 33px;
+}
+
+.item {
+    margin-bottom: 15px;
+    width: 100%;
+    min-height: 63px;
+    padding-left: 23px;
+    padding-top: 19px;
+    background: #424242;
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+#perk-cats {
+    margin-top: 51px;
+}
+
+.cta-box {
+    min-height: 279px;
+    background: #FFFFFF;
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+.md-line {
+    border: 1px solid #979797;
+    width: 105px;
+    margin: 0 auto;
+}
+
+.cta-content {
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cta-box h3 {
+    font-family: Poppins-SemiBold;
+    font-size: 12px;
+    color: #101010;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 14px;
+}
+.cta-box p {
+    margin-top: 20px;
+    font-family: Poppins-Regular;
+    font-size: 10px;
+    color: #101010;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 15px;
+}
+
+.btn-cta {
+    margin-top: 24px;
+    background: #232222;
+    height: 44px;
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: 0.75px;
+    text-align: center;
+    width: 245px;
+}

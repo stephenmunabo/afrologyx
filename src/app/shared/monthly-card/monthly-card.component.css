@@ -1,0 +1,54 @@
+.card-item {
+    margin-top: 15px;
+    min-height: 303px;
+    background-image: linear-gradient(-180deg, rgba(110,107,107,0.36) 0%, rgba(0,0,0,0.50) 97%);
+    border-radius: 2px; 
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center
+}
+
+.border-line {
+    margin-top: 57px;
+    width: 100%;
+    border: 1px solid #E3E1E1;
+}
+
+.monthly-card h4 {
+    margin-top: 45px;
+    font-family: Poppins-Medium;
+    font-size: 21px;
+    color: #9B9B9B;
+    letter-spacing: 0;
+}
+.button-holder {
+    padding-left: 36px;
+    padding-top: 226px;
+}
+.event-content {
+    padding-top:10px;
+    padding-right: 35px;
+}
+.event-content h2 {
+    font-family: Poppins-Bold;
+    font-size: 64px;
+    color: #FFFFFF;
+    letter-spacing: -2.4px;
+    line-height: 63px;
+}
+.footer-content h5{
+    font-family: Poppins-Medium;
+    font-size: 21px;
+    color: #FFFFFF;
+    letter-spacing: -1.41px;
+}
+.footer-content p {
+    font-family: Poppins-SemiBold;
+    font-size: 11px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.footer-content{
+    margin-top: 124px;
+}

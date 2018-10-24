@@ -1,0 +1,54 @@
+
+<section class="ask-question">
+    <div class="container">
+        <div class="row">
+          <div class="heading-wrapper col-md-12">
+            <h1>FAQs</h1>
+          </div>
+      
+          <div class="col-md-10 col-xs-8">
+            <input class="faq-control" type="text" placeholder="Ask a question">
+          </div>  
+      
+          <div class="col-md-2 col-xs-4">
+              <button class="faqs-btn">ASK</button>
+          </div>
+      
+        </div>
+      </div>
+      
+</section>
+
+
+<section class="faqs">
+  <div class="container">
+    <div class="row">
+
+      
+
+      <div (click)="showFaq(i)" *ngFor="let faq of faqs; let i = index" [attr.data-index]="i" [className]="me == i ? 'col-md-12 item active' : 'col-md-12 item inactive'" class="col-md-12 item">
+          <div class="row">
+            <div class="col-xs-9">
+                <h2>{{faq.title}}</h2>
+                <p>{{faq.question}}</p>
+
+                <br>
+
+                <p class="answer" *ngIf="me == i">{{faq.answer}}</p>
+            </div>
+  
+            <div class="col-xs-3">
+                <div class="toggler">
+                    <img (click)="showFaq(i)" class="faq-plus" src="../../../assets/images/faq-plus.png" alt="">
+                </div>
+            </div>
+          </div>
+          
+      </div>
+
+
+
+
+    </div>
+  </div>
+</section>

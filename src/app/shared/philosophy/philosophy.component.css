@@ -1,0 +1,236 @@
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    .philosophy {
+        min-height: 657px;
+        background-image: url('../../../assets/images/philosophy.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 40%; 
+        width: 100%;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+   
+    .top-section h5 {
+        margin-top: 73px;
+        margin-bottom: 35px;
+        font-family: Poppins-Regular;
+        font-size: 18px;
+        color: #FFFFFF;
+        letter-spacing: 1.2px;
+        text-align: center;
+
+    }
+
+    .main-heading h1 {
+        font-family: Poppins-Medium;
+        font-size: 49px;
+        color: #FFFFFF;
+        letter-spacing: 0.3px;
+        text-align: center;
+        line-height: 43px;
+
+    }
+    .main-heading  {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 78px;
+    }
+}
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    .philosophy {
+        min-height: 657px;
+        background-image: url('../../../assets/images/philosophy.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 90%; 
+        width: 100%;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    .top-section h5 {
+        margin-top: 73px;
+        margin-bottom: 35px;
+        font-family: Poppins-Regular;
+        font-size: 24px;
+        color: #FFFFFF;
+        letter-spacing: 1.2px;
+        text-align: center;
+    }
+    .main-heading h1 {
+        font-family: Poppins-Medium;
+        font-size: 59px;
+        color: #FFFFFF;
+        letter-spacing: 0.3px;
+        text-align: center;
+        line-height: 43px;
+    }
+    .main-heading  {
+        padding-left: 85px;
+        padding-right: 85px;
+        margin-top: 78px;
+    }
+}
+
+ /* Small Devices, Tablets */
+ @media only screen and (min-width : 768px) {
+    .philosophy {
+        min-height: 657px;
+        background-image: url('../../../assets/images/philosophy.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    .top-section h5 {
+        margin-top: 73px;
+        margin-bottom: 35px;
+        font-family: Poppins-Regular;
+        font-size: 24px;
+        color: #FFFFFF;
+        letter-spacing: 1.2px;
+        text-align: center;
+    }
+    .main-heading h1 {
+        font-family: Poppins-Medium;
+        font-size: 59px;
+        color: #FFFFFF;
+        letter-spacing: 0.3px;
+        text-align: center;
+        line-height: 43px;
+    }
+    .main-heading  {
+        padding-left: 85px;
+        padding-right: 85px;
+        margin-top: 78px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .philosophy {
+        min-height: 657px;
+        background-image: url('../../../assets/images/philosophy.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    .top-section h5 {
+        margin-top: 73px;
+        margin-bottom: 35px;
+        font-family: Poppins-Regular;
+        font-size: 24px;
+        color: #FFFFFF;
+        letter-spacing: 1.2px;
+        text-align: center;
+    }
+    .main-heading h1 {
+        font-family: Poppins-Medium;
+        font-size: 59px;
+        color: #FFFFFF;
+        letter-spacing: 0.3px;
+        text-align: center;
+        line-height: 43px;
+    }
+    .main-heading  {
+        padding-left: 85px;
+        padding-right: 85px;
+        margin-top: 78px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .philosophy {
+        min-height: 657px;
+        background-image: url('../../../assets/images/philosophy.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    .top-section h5 {
+        margin-top: 73px;
+        margin-bottom: 35px;
+        font-family: Poppins-Regular;
+        font-size: 24px;
+        color: #FFFFFF;
+        letter-spacing: 1.2px;
+        text-align: center;
+    }
+    .main-heading h1 {
+        font-family: Poppins-Medium;
+        font-size: 59px;
+        color: #FFFFFF;
+        letter-spacing: 0.3px;
+        text-align: center;
+        line-height: 43px;
+    }
+    .main-heading  {
+        padding-left: 85px;
+        padding-right: 85px;
+        margin-top: 78px;
+    }
+}
+
+
+
+
+
+
+
+.dash {
+    margin-top: 35px;
+    background: #FFFFFF;  
+    height: 6px;
+    width: 42px; 
+    text-align: center!important;
+    margin: 0 auto;
+}
+
+.top-section h5 {
+    margin-top: 73px;
+    margin-bottom: 35px;
+    font-family: Poppins-Regular;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 1.2px;
+    text-align: center;
+}
+
+.main-heading h1 {
+    font-family: Poppins-Medium;
+    font-size: 59px;
+    color: #FFFFFF;
+    letter-spacing: 0.3px;
+    text-align: center;
+    line-height: 43px;
+}
+.main-heading p {
+    margin-top: 70px;
+    font-family: Poppins-Light;
+    font-size: 19px;
+    color: #fff;
+    letter-spacing: 0.3px;
+    text-align: center;
+    line-height: 43px;
+}
+
+.btn-custom-short {
+    margin-top: 25px;
+    height: 63px!important;
+    width: 192px!important;
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0.8px;
+    text-align: center;
+}

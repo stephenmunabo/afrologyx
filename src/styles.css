@@ -1,1 +1,130 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+@font-face {
+    font-family: Interstate_Light;
+    src: url(fonts/interstate/Interstate_exLight.ttf);
+}
+@font-face {
+    font-family: Interstate_bold;
+    src: url(fonts/interstate/Interstate-Bold.eot)
+}
+
+@font-face {
+    font-family: Interstate_regular;
+    src: url(fonts/interstate/Interstate-Regular.ttf)
+}
+
+* {
+    margin: 0px;
+}
+
+html body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+html {
+    border-left: 50px solid white;
+    border-right: 50px solid white;
+}
+
+ /* Custom, iPhone Retina */ 
+ @media only screen and (min-width : 320px) {
+    html {
+        border-left: 0px solid white;
+        border-right: 0px solid white;
+    }
+}
+
+.btn {
+    width: 100%;
+    
+    padding-top: 13px;
+    background: #fff!important;
+    border-radius: 0px!important;
+
+    border: none!important;
+    min-height: 50px;
+    transition: background 0.5s ease;
+
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    color: #302727;
+    letter-spacing: 0.75px;
+    text-align: center;
+
+   
+}
+
+.checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.form-control {
+    height: 40px!important;
+    border-radius: 0px!important;
+    background-color: transparent!important;
+    
+
+    font-family: Poppins-Regular!important;
+    font-size: 12px!important;
+   
+    letter-spacing: 0.75px;
+
+    color: #C8C5C5!important;
+    margin-bottom: 13px;
+}
+
+::placeholder {
+    font-family: Poppins-Regular!important;
+    font-size: 12px!important;
+    color: #C8C5C5!important; 
+}
+
+.btn:hover {
+    background: #000;
+}
+
+
+/*Custom scroller*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #450D23; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.btn-custom-short {
+    margin-top: 25px;
+    height: 63px!important;
+    width: 192px!important;
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0.8px;
+    text-align: center;
+}

@@ -1,0 +1,147 @@
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    .main-hero {
+        background-image: url('../../../assets/images/HERO.png');
+        background-repeat: no-repeat;
+        background-position-x: 40%;
+        background-size: cover;
+        min-height: 692px;
+        background-attachment: fixed;
+        width: 100%;
+        height: auto;
+    }
+}
+
+ /* Small Devices, Tablets */
+ @media only screen and (min-width : 768px) {
+    .main-hero {
+        background-image: url('../../../assets/images/HERO.png');
+        background-size: cover;
+        min-height: 692px;
+        background-attachment: fixed;
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .main-hero {
+        background-image: url('../../../assets/images/HERO.png');
+        background-size: cover;
+        min-height: 692px;
+        background-attachment: fixed;
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .main-hero {
+        background-image: url('../../../assets/images/HERO.png');
+        background-size: cover;
+        min-height: 692px;
+        background-attachment: fixed;
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+.main-hero h1 {
+    font-family: Poppins-Bold;
+    font-size: 43px;
+    color: #FFFFFF;
+    letter-spacing: -1.01px;
+    line-height: 44px;
+}
+.header-text {
+    margin-top: 65px;
+}
+.hero-content {
+    padding-top: 10px;
+}
+.hero-content p{
+    font-family: Poppins-Regular;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0.6px;
+    line-height: 23px;
+    margin-bottom: 24px;
+}
+.tac {
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: -0.15px;
+    padding-top: 22px; 
+    padding-bottom: 26px;
+}
+input[type=checkbox] {
+    background-color: transparent!important;    
+    border: 3px solid red;
+}
+
+input[type=checkbox]:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.respect {
+    margin-top: 20px;
+    font-family: Poppins-Regular;
+    font-size: 11px;
+    color: #FFFFFF;
+    letter-spacing: 2.19px;
+    text-align: center;
+}
+
+.header-text h2 {
+    font-family: Poppins-SemiBold;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+.header-text h5 {
+    font-family: Poppins-SemiBold;
+    font-size: 11px;
+    color: #FFFFFF;
+    line-height: 170%!important;
+    text-align: center; 
+}
+
+.holder-1a {
+    padding-right: 90px;
+}
+sup {
+    font-size: 15px!important;
+}

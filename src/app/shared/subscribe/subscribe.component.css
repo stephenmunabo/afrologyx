@@ -1,0 +1,39 @@
+.subscribe-mod {
+    margin-top: 138px;
+    margin-bottom: 137px;
+}
+
+.heading-a1 {
+    font-family: Interstate-Light;
+    font-size: 38px;
+    color: #777676;
+    letter-spacing: -0.39px;
+    text-align: center;
+}
+.sub-heading {
+    margin-top: -10px;
+    font-family: Interstate-Light;
+    font-size: 17px;
+    color: #777676;
+    letter-spacing: -0.18px;
+    text-align: center
+}
+
+.privacy {
+    font-family: Interstate-Light;
+    font-size: 14px;
+    color: #777676;
+    letter-spacing: 1.83px;
+    text-align: center;
+}
+
+.subscribe-box {
+    background: #F5F5F5;
+    min-height: 320px;
+    padding-top: 52px;
+}
+
+.form-holder {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
