@@ -1,5 +1,5 @@
-<section class="main-hero">
-    <app-header></app-header>
+<section class="main-hero" style="background-image: url(../../../assets/images/blk-peeps.png);">
+    <app-header></app-header> 
     <div class="container">
         <div class="header-text">
                 <div class="col-md-6 holder-1a hidden-xs">
@@ -21,17 +21,76 @@
                 <div class="col-md-6">
                     <h2>CLAIM YOUR EXCLUSIVE MEMBERSHIP TODAY!</h2>
                     <h5>Membership to Afrology is limited, sign up today and join our growing list of Afrologians [500+Members and growing.]</h5>
-                    <input type="text" class="form-control" placeholder="First Name" required>
-                    <input type="text" class="form-control" placeholder="Last Name" required>
-                    <input type="text" class="form-control" placeholder="Email Address" required>
-                    <input type="text" class="form-control" placeholder="Instagram Address" required>
-                    <label class="container tac">
-                            <input class="" type="checkbox" checked="checked">
-                            <span class="checkmark"></span>
-                            I Accept the Terms & Conditions and Privacy Policy
-                    </label>
-                   
-                    <button class="btn">JOIN AFROLOGYX</button>
+                    <form [formGroup]="form" (ngSubmit)="onSubmit(form)" >
+                            <input
+                            [ngClass]="{
+                                'validation-input-danger' : firstName.touched && firstName.invalid, 
+                                'validation-input-success' : !firstName.invalid 
+                             }"
+                            type="text" name="firstname" formControlName="firstname" class="form-control" placeholder="First Name" required>
+                            <!-- error message -->
+                            <span *ngIf="firstName.touched && firstName.invalid" class="validation-message-danger" id="e5Error">
+                                <div class="error-text" *ngIf="firstName.errors.required">First name field is required!</div>
+                            </span>
+
+                            <input
+                            [ngClass]="{
+                                'validation-input-danger' : lastName.touched && lastName.invalid, 
+                                'validation-input-success' : !lastName.invalid 
+                             }"
+                            type="text" name="lastname" formControlName="lastname" class="form-control" placeholder="Last Name" required>
+                            <!-- error message -->
+                            <span *ngIf="lastName.touched && lastName.invalid" class="validation-message-danger" id="e5Error">
+                                <div class="error-text" *ngIf="lastName.errors.required">Last name field is required!</div>
+                            </span>
+
+
+                            <input
+                            [ngClass]="{
+                                'validation-input-danger' : email.touched && email.invalid, 
+                                'validation-input-success' : !email.invalid 
+                             }"
+                            type="email" name="email" formControlName="email" class="form-control" placeholder="Email Address" required>
+
+                            <!-- error message -->
+                            <span *ngIf="email.touched && email.invalid" class="validation-message-danger" id="e5Error">
+                                <div class="error-text" *ngIf="email.errors.required">Enter a valid email address</div>
+                                <div class="error-text" *ngIf="email.errors.email">Email address must be a format! i.e (john@test.com)</div>
+                            </span>
+
+
+                            <input 
+                            [ngClass]="{
+                                'validation-input-danger' : instagram.touched && instagram.invalid, 
+                                'validation-input-success' : !instagram.invalid 
+                             }"
+                            type="text" name="instagram" formControlName="instagram" class="form-control" placeholder="Instagram Address" required>
+                            <!-- error message -->
+                            <span *ngIf="instagram.touched && instagram.invalid" class="validation-message-danger" id="e5Error">
+                                    <div class="error-text" *ngIf="instagram.errors.required">Instagram field is required!</div>
+                            </span>
+
+                
+
+
+
+                            <div class="form-group col-md-8 col-sm-12 col-xs-12">
+                                    <div class="checkbox">
+                                        <input value="1" name="termsAndConditions" formControlName="termsAndConditions" type="checkbox" id="i5" name="i5" value="1" required>
+                                        <label class="tac" for="i5" id="i5Label" aria-label="not here">I agree to the <a routerLink="">Terms & Condition</a></label>
+                                    </div>
+                                    <!-- error message -->
+          
+                                    <div *ngIf="termsAndConditions.ng-touched && termsAndConditions.invalid" class="validation-message-danger">
+                                      <span id="radioset-10-error" error role="alert">
+                                          Error message for radio set
+                                      </span>
+                                    </div>     
+                                </div>
+
+                           
+                            <button type="submit" [disabled]="!form.valid" class="btn">JOIN AFROLOGYX</button>
+                    </form>
                     <p class="respect">WE RESPECT YOUR PRIVACY!</p>
                 </div>
         </div>

@@ -145,3 +145,19 @@ input[type=checkbox]:after {
 sup {
     font-size: 15px!important;
 }
+
+.validation-message-danger {
+    color: red;
+    margin-bottom: 25px!important;
+    
+}
+
+.error-text {
+    margin-bottom: 12px;
+}
+.validation-input-success {
+    border: 1px solid green;
+}
+.validation-input-danger {
+    border: 1px solid red;
+}

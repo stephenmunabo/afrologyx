@@ -7,7 +7,9 @@
        <div class="nav">
          <ul>
            <li><a routerLink="/"><img src="../../../assets/images/afrology-logo.png" alt=""></a></li>
-           <li><a routerLink="/discover/events/go">DISCOVER EVENTS</a></li>
+           <li><a routerLink="/discover/events/go">DIRECTORY</a></li>
+           <li><a routerLink="/discover/events/go">PROMOTIONS</a></li>
+           <li><a routerLink="/discover/events/go">WHAT'S HAPPENING</a></li>
            <li><a routerLink="/perks/do">MEMBER PERKS</a></li>
            <li><a routerLink="/faq/go">FAQs</a></li> 
            
@@ -15,8 +17,9 @@
 
        </div>
 
-       <div class="nav text-right">
+       <div class="nav-right text-right">
          <ul>
+            <li ><a (click)="logout()">Logout</a></li>
             <li class=""><a routerLink="/login/action">Member Login</a></li>
          </ul>
        </div>

@@ -15,6 +15,11 @@
     src: url(fonts/interstate/Interstate-Regular.ttf)
 }
 
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(fonts/interstate/Poppins-Regular.ttf)
+}
+
 * {
     margin: 0px;
 }
@@ -127,4 +132,13 @@ html {
     color: #000000;
     letter-spacing: 0.8px;
     text-align: center;
+}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: rgb(230, 230, 230) !important;
+    background-image: none !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+input:-webkit-autofill {
+    background-color: #fff !important;
 }
